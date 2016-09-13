@@ -9,4 +9,13 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+         
+        <servlet>
+                <servlet-name>FirstServlet</servlet-name>
+                <servlet-class>com.poc.core.HelloWorldServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>FirstServlet</servlet-name>
+                <url-pattern>/hellojay</url-pattern>
+        </servlet-mapping>
 </web-app>
