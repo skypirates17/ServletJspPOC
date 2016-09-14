@@ -4,6 +4,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Hello world in Servlet + JSP</title>
+<title>Servlet POC</title>
 </head>
 <body>
+
+<%
+	String contextPath = request.getContextPath();
+%>

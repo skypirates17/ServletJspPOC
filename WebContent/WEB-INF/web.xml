@@ -28,4 +28,22 @@
                 <url-pattern>/studentlist</url-pattern>
         </servlet-mapping>
         
+        <servlet>
+                <servlet-name>DisplayValue</servlet-name>
+                <servlet-class>com.poc.core.DisplayValuesServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>DisplayValue</servlet-name>
+                <url-pattern>/displayValues</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+                <servlet-name>MainForm</servlet-name>
+                <servlet-class>com.poc.core.MainFormServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>MainForm</servlet-name>
+                <url-pattern>/main</url-pattern>
+        </servlet-mapping>
+        
 </web-app>
