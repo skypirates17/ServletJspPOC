@@ -18,7 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-	    RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/hello.jsp");
+	    RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/hello.jsp");
 	    rd.forward(request, response);
     }
 
