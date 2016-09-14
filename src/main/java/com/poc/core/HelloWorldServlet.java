@@ -21,5 +21,13 @@ public class HelloWorldServlet extends HttpServlet {
 	    RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/hello.jsp");
 	    rd.forward(request, response);
     }
+    
+    /**
+     * calls the get method when action is post to prevent code duplication
+     */
+    public void doPost(HttpServletRequest request, HttpServletResponse response)
+    		throws ServletException, IOException{
+    	this.doGet(request,response);
+    }
 
 }
