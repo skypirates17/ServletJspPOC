@@ -18,4 +18,14 @@
                 <servlet-name>FirstServlet</servlet-name>
                 <url-pattern>/hellojay</url-pattern>
         </servlet-mapping>
+        
+        <servlet>
+                <servlet-name>ListStudentServlet</servlet-name>
+                <servlet-class>com.poc.core.DisplayingVariableServlet</servlet-class>
+        </servlet>
+        <servlet-mapping>
+                <servlet-name>ListStudentServlet</servlet-name>
+                <url-pattern>/studentlist</url-pattern>
+        </servlet-mapping>
+        
 </web-app>
